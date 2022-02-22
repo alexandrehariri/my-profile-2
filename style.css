@@ -1,0 +1,87 @@
+ /*Colors and fonts*/
+body {
+	background: rgb(230, 230, 230);
+	color:  rgb(50, 50, 50);
+	font-family: "Roboto", sans-serif ;
+	font-size: 16px;
+}
+h1, h2 {
+	font-family: "Roboto", sans-serif;
+}
+h1 {
+	color: rgb(53, 80, 112);
+	font-size: 28px;
+}
+h2 {
+	color: rgb(229, 107, 111);
+	font-size: 20px;
+	font-weight: bolder;
+}
+a {
+  text-decoration: none;
+  color: rgb(109, 89, 122);
+ }
+a:hover {
+	color: rgb(53, 80, 112);
+}
+
+ /*Custom design with class*/
+
+.container {
+	width:  700px;
+	margin: 15px auto;
+}
+.card-white {
+	background-color: white;
+	padding: 30px;
+	margin: 30px;
+	box-shadow: 0px 10px 30px rgba(109, 89, 122, 0.2);
+	border-radius: 4px;
+	text-align: center;
+}
+.img-circle {
+	width: 100px;
+	border-radius: 50%;
+}
+.btn-blue {
+	background-color: rgb(53, 80, 112);
+	color: white;
+	padding: 10px;
+	margin-top: 20px;
+	border-radius: 4px;
+}
+.btn-blue:hover {
+	background-color: rgb(229, 107, 111);
+	color: white;
+}
+.list-inline {
+	list-style: none;
+	padding-right: 40px;    
+}
+.list-inline li {
+	display:  inline-block;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 26px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+
+
+
